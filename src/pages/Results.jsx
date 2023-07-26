@@ -12,7 +12,7 @@ export default function Results() {
     return (
         <div className="m-2">
             <button className="h-8 w-8" onClick={handleBack}>
-                <img className="h-full w-full" src="src/assets/Back.svg"/>
+                <img className="h-full w-full" src="assets/Back.svg"/>
             </button>
             <div className="text-center mb-4">
                 <p className="mt-12 font-bold text-xl">

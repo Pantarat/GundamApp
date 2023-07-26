@@ -78,7 +78,7 @@ export default function Map(props) {
                 </div>
             </div>
             <div className="flex justify-center">
-                <img className="mb-5 rounded-2xl shadow-md shadow-slate-300" src="src/assets/farm_map.jpg" />
+                <img className="mb-5 rounded-2xl shadow-md shadow-slate-300" src="assets/farm_map.jpg" />
             </div>
             <div className="text-center">
                 <button className="border border-black shadow-md shadow-slate-300 rounded-2xl px-5 py-1" onClick={handleAdd}>เพิ่มสวน</button>

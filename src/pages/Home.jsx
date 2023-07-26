@@ -35,7 +35,7 @@ export default function Home(props) {
             </p>
             <p className="mb-2">
                 <button onClick={handleAdd}>
-                    <img className="inline mr-1" src="src/assets/Add_round_fill.png" />
+                    <img className="inline mr-1" src="assets/Add_round_fill.png" />
                 </button>
                 เพิ่มสวน
             </p>
@@ -44,10 +44,10 @@ export default function Home(props) {
                     <div className="ml-10 mb-2 text-sm h-16" key={index} >
                         <span onClick={handleToDisplay}>
                             สวน {garden.name}
-                            <img className="inline h-full ml-5" src="src/assets/big_heat_map.jpg" />
+                            <img className="inline h-full ml-5" src="assets/big_heat_map.jpg" />
                         </span>
                         <button onClick={() => handleRemove(index)}>
-                            <img className="inline h-1/6 ml-5" src="src/assets/Close_round_light.svg" />
+                            <img className="inline h-1/6 ml-5" src="assets/Close_round_light.svg" />
                         </button>
                     </div>
                 ))}

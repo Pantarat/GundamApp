@@ -17,7 +17,7 @@ export default function Display() {
     return (
         <div className="m-2 mb-20">
             <button className="h-8 w-8" onClick={handleBack}>
-                <img className="h-full w-full" src="src/assets/Back.svg" />
+                <img className="h-full w-full" src="assets/Back.svg" />
             </button>
             <p className="text-m mb-4">
                 สถานะ: กำลังปรับปรุง
@@ -26,7 +26,7 @@ export default function Display() {
                 Heatmap: N
             </h1>
             <div className="flex justify-center">
-                <img className="mb-5" src="src/assets/heat_map_conc.jpg" />
+                <img className="mb-5" src="assets/heat_map_conc.jpg" />
             </div>
             <div className="shadow-md shadow-slate-200 border border-black text-left rounded-xl p-2">
                 <h1 className="font-bold">
